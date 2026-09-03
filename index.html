@@ -479,14 +479,6 @@ button{font:inherit}
   letter-spacing:.18em;
 }
 
-.service-card.featured{
-  grid-column:1/-1;
-  min-height:420px;
-}
-.service-card.featured img{
-  object-position:center 34%;
-}
-
 /* SECTION DIVIDER */
 .section-divider{
   padding:0;
@@ -599,7 +591,6 @@ button{font:inherit}
   .principles,.facts-grid{grid-template-columns:1fr 1fr}
   .gallery{grid-template-columns:1fr;grid-template-rows:auto}
   .services{grid-template-columns:1fr}
-  .service-card.featured{grid-column:auto}
   .shot:first-child{grid-row:auto}
   .gallery .shot{height:340px}
   .section-head{display:block}
@@ -821,30 +812,30 @@ button{font:inherit}
         </div>
       </a>
 
+      <!-- Ganti # pada href di bawah dengan URL halaman Personal Portrait -->
+      <a class="service-card reveal delay-1" href="#" data-url-template="URL_PERSONAL_PORTRAIT">
+        <img src="Personal Potrait.jpg" alt="Personal portrait oleh Mulae Production">
+        <div class="service-content">
+          <div class="service-meta"><span>03 / PERSONAL PORTRAIT</span><span class="service-arrow">↗</span></div>
+          <h3>Personal Portrait</h3>
+        </div>
+      </a>
+
       <!-- Ganti # pada href di bawah dengan URL halaman Wedding Documentation -->
-      <a class="service-card reveal delay-1" href="#" data-url-template="URL_WEDDING_DOCUMENTATION">
+      <a class="service-card reveal delay-2" href="#" data-url-template="URL_WEDDING_DOCUMENTATION">
         <img src="Wedding Documentation.jpg" alt="Wedding documentation oleh Mulae Production">
         <div class="service-content">
-          <div class="service-meta"><span>03 / COMING SOON</span><span class="service-arrow">↗</span></div>
+          <div class="service-meta"><span>04 / COMING SOON</span><span class="service-arrow">↗</span></div>
           <h3>Wedding Documentation</h3>
         </div>
       </a>
 
-      <!-- Ganti # pada href di bawah dengan URL halaman Company Profile dan tambahkan foto jika sudah tersedia -->
+      <!-- Ganti # pada href di bawah dengan URL halaman Company Profile -->
       <a class="service-card reveal delay-2" href="#" data-url-template="URL_COMPANY_PROFILE">
         <img src="MUL-05268.jpg" alt="Pengambilan visual company profile oleh Mulae Production">
         <div class="service-content">
-          <div class="service-meta"><span>04 / COMING SOON</span><span class="service-arrow">↗</span></div>
+          <div class="service-meta"><span>05 / COMING SOON</span><span class="service-arrow">↗</span></div>
           <h3>Visual Company Profile</h3>
-        </div>
-      </a>
-
-      <!-- Ganti # pada href di bawah dengan URL halaman Personal Portrait -->
-      <a class="service-card featured reveal delay-2" href="#" data-url-template="URL_PERSONAL_PORTRAIT">
-        <img src="Personal Potrait.jpg" alt="Personal portrait oleh Mulae Production">
-        <div class="service-content">
-          <div class="service-meta"><span>05 / PERSONAL PORTRAIT</span><span class="service-arrow">↗</span></div>
-          <h3>Personal Portrait</h3>
         </div>
       </a>
     </div>
